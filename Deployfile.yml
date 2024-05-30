@@ -1,0 +1,35 @@
+---
+format: v4
+metadata:
+  name: restriction-hints-frontend
+  system: restriction-hints-frontend
+  lang: nodejs
+  deploy_to: k8s
+spec:
+  - data:
+      deployment:
+        image_pull_policy: "Always"
+        replicas: 1
+        request_cpu: 500
+        limit_mem: 128
+        image: "docker.cdek.ru/restriction-hints-frontend"
+        port: 80
+        liveness_probe_http_path: /
+        readiness_probe_http_path: /
+        consul_register: "true"
+        jaeger_tracing: "false"
+  - subject:
+      environment: [ "dev2" ]
+    data:
+      deployment:
+        image: "docker-dev.cdek.ru/restriction-hints-frontend"
+  - subject:
+      environment: [ "qa2" ]
+    data:
+      deployment:
+        image: "docker-dev.cdek.ru/restriction-hints-frontend"
+  - subject:
+      environment: [ "preproduction" ]
+    data:
+      deployment:
+        image: "docker-dev.cdek.ru/restriction-hints-frontend"

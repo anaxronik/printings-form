@@ -1,0 +1,7 @@
+include:
+  - project: "architecture/ci-scripts"
+    ref: master
+    file: ".ci-base-k8s-nodejs.yml"
+variables:
+  DEPLOY_APP: restriction-hints-frontend
+  DEPLOY_FILE: Deployfile.yml
