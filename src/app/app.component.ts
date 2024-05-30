@@ -47,11 +47,11 @@ export class AppComponent {
       url: COMMON_URL + '/reestr_chn_two_hundred_plus/',
     },
     {
-      name: 'reestr_document_express_reestr',
+      name: 'Реестр Documents Express',
       url: COMMON_URL + '/reestr_document_express_reestr/',
     },
     {
-      name: 'reestr_export_aze',
+      name: 'Реестр Азербайджан',
       url: COMMON_URL + '/reestr_export_aze/',
     },
     {
@@ -67,19 +67,19 @@ export class AppComponent {
       url: COMMON_URL + '/reestr_import_to_belarus/',
     },
     {
-      name: 'reestr_invoice_deu',
+      name: 'Реестр Германия',
       url: COMMON_URL + '/reestr_invoice_deu/',
     },
     {
-      name: 'reestr_invoice_eng_eng',
+      name: 'Английский инвойс, eng',
       url: COMMON_URL + '/reestr_invoice_eng_eng/',
     },
     {
-      name: 'reestr_invoice_eng_rus',
+      name: 'Английский инвойс, rus',
       url: COMMON_URL + '/reestr_invoice_eng_rus/',
     },
     {
-      name: 'США',
+      name: 'Реестр USA',
       url: COMMON_URL + '/reestr_invoice_usa/',
     },
     {
@@ -87,15 +87,15 @@ export class AppComponent {
       url: COMMON_URL + '/reestr_israel/',
     },
     {
-      name: 'Израиль - английский',
+      name: 'Английский реестр Израиль',
       url: COMMON_URL + '/reestr_israel_eng/',
     },
     {
-      name: 'Италия',
+      name: 'Реестр ITALY',
       url: COMMON_URL + '/reestr_italy/',
     },
     {
-      name: 'Калининград',
+      name: 'Реестр Калининград',
       url: COMMON_URL + '/reestr_kaliningrad/',
     },
     {
@@ -103,11 +103,11 @@ export class AppComponent {
       url: COMMON_URL + '/reestr_rf_azerbaijan/',
     },
     {
-      name: 'reestr_rus_post_eu',
+      name: 'Руспост eu',
       url: COMMON_URL + '/reestr_rus_post_eu/',
     },
     {
-      name: 'reestr_rus_post_us',
+      name: 'Руспост us',
       url: COMMON_URL + '/reestr_rus_post_us/',
     },
     {
@@ -115,23 +115,31 @@ export class AppComponent {
       url: COMMON_URL + '/reestr_russia_import_b2b_b2c/',
     },
     {
-      name: 'reestr_russia_import_c2c',
+      name: 'Реестр Грузия - РФ (авиа)',
+      url: COMMON_URL + '/reestr_georgia_russia_air/',
+    },
+    {
+      name: 'С2С Реестр, Импорт в РФ',
       url: COMMON_URL + '/reestr_russia_import_c2c/',
     },
     {
-      name: 'reestr_russia_russia_export',
+      name: 'Реестр на экспорт',
       url: COMMON_URL + '/reestr_russia_russia_export/',
     },
     {
-      name: 'reestr_turkey',
+      name: 'Реестр Lognetix',
+      url: COMMON_URL + '/reestr_lognetix/',
+    },
+    {
+      name: 'Р. Турция',
       url: COMMON_URL + '/reestr_turkey/',
     },
     {
-      name: 'reestr_turkey_azerbaijan',
+      name: 'Реестр Турция-Азербайджан',
       url: COMMON_URL + '/reestr_turkey_azerbaijan/',
     },
     {
-      name: 'reestr_usa_import',
+      name: 'Импортный реестр США',
       url: COMMON_URL + '/reestr_usa_import/',
     },
     {
@@ -139,7 +147,11 @@ export class AppComponent {
       url: COMMON_URL + '/reestr_usa_kazakhstan/',
     },
     {
-      name: 'reestr_uzbekistan_import',
+      name: 'Импорт в Сербию',
+      url: COMMON_URL + '/reestr_serbia_import/',
+    },
+    {
+      name: 'Импорт в Узбекистан',
       url: COMMON_URL + '/reestr_uzbekistan_import/',
     },
     {
